@@ -133,13 +133,8 @@ The package has been tested and verified:
 - ✅ Executable is properly registered
 - ✅ Dependencies are correctly specified
 
-## Customization
-
-### Modifying Gesture Mappings
-Edit the `process_frame()` method in `hand_controlled_robot_node.py` to change velocity values or add new gestures.
-
-### Changing Robot Model
-Update the bridge command to use a different robot model in Gazebo.
+## Demonstration 
+https://github.com/user-attachments/assets/4a715a61-0137-4763-91cc-566c6ecdcae8
 
 ### Adding New Features
 - Add new gesture detection methods
