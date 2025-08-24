@@ -1,0 +1,39 @@
+[1.467s] Invoking command in '/home/thedush/hand_robot_ws/src/hand_controlled_robot': PYTHONPATH=/home/thedush/hand_robot_ws/build/hand_controlled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_controlled_robot build --build-base /home/thedush/hand_robot_ws/build/hand_controlled_robot/build install --record /home/thedush/hand_robot_ws/build/hand_controlled_robot/install.log --single-version-externally-managed install_data
+[1.659s] running egg_info
+[1.659s] creating ../../build/hand_controlled_robot/hand_controlled_robot.egg-info
+[1.659s] writing ../../build/hand_controlled_robot/hand_controlled_robot.egg-info/PKG-INFO
+[1.659s] writing dependency_links to ../../build/hand_controlled_robot/hand_controlled_robot.egg-info/dependency_links.txt
+[1.659s] writing entry points to ../../build/hand_controlled_robot/hand_controlled_robot.egg-info/entry_points.txt
+[1.659s] writing requirements to ../../build/hand_controlled_robot/hand_controlled_robot.egg-info/requires.txt
+[1.659s] writing top-level names to ../../build/hand_controlled_robot/hand_controlled_robot.egg-info/top_level.txt
+[1.660s] writing manifest file '../../build/hand_controlled_robot/hand_controlled_robot.egg-info/SOURCES.txt'
+[1.661s] reading manifest file '../../build/hand_controlled_robot/hand_controlled_robot.egg-info/SOURCES.txt'
+[1.661s] writing manifest file '../../build/hand_controlled_robot/hand_controlled_robot.egg-info/SOURCES.txt'
+[1.661s] running build
+[1.661s] running build_py
+[1.661s] creating /home/thedush/hand_robot_ws/build/hand_controlled_robot/build
+[1.661s] creating /home/thedush/hand_robot_ws/build/hand_controlled_robot/build/lib
+[1.662s] creating /home/thedush/hand_robot_ws/build/hand_controlled_robot/build/lib/hand_controlled_robot
+[1.662s] copying hand_controlled_robot/__init__.py -> /home/thedush/hand_robot_ws/build/hand_controlled_robot/build/lib/hand_controlled_robot
+[1.662s] copying hand_controlled_robot/hand_controlled_robot_node.py -> /home/thedush/hand_robot_ws/build/hand_controlled_robot/build/lib/hand_controlled_robot
+[1.662s] running install
+[1.662s] running install_lib
+[1.663s] creating /home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/python3.10/site-packages/hand_controlled_robot
+[1.663s] copying /home/thedush/hand_robot_ws/build/hand_controlled_robot/build/lib/hand_controlled_robot/__init__.py -> /home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/python3.10/site-packages/hand_controlled_robot
+[1.663s] copying /home/thedush/hand_robot_ws/build/hand_controlled_robot/build/lib/hand_controlled_robot/hand_controlled_robot_node.py -> /home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/python3.10/site-packages/hand_controlled_robot
+[1.663s] byte-compiling /home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/python3.10/site-packages/hand_controlled_robot/__init__.py to __init__.cpython-310.pyc
+[1.663s] byte-compiling /home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/python3.10/site-packages/hand_controlled_robot/hand_controlled_robot_node.py to hand_controlled_robot_node.cpython-310.pyc
+[1.664s] running install_data
+[1.664s] creating /home/thedush/hand_robot_ws/install/hand_controlled_robot/share/ament_index
+[1.664s] creating /home/thedush/hand_robot_ws/install/hand_controlled_robot/share/ament_index/resource_index
+[1.664s] creating /home/thedush/hand_robot_ws/install/hand_controlled_robot/share/ament_index/resource_index/packages
+[1.664s] copying resource/hand_controlled_robot -> /home/thedush/hand_robot_ws/install/hand_controlled_robot/share/ament_index/resource_index/packages
+[1.665s] copying package.xml -> /home/thedush/hand_robot_ws/install/hand_controlled_robot/share/hand_controlled_robot
+[1.665s] creating /home/thedush/hand_robot_ws/install/hand_controlled_robot/share/hand_controlled_robot/launch
+[1.665s] copying hand_controlled_robot/launch/hand_control.launch.py -> /home/thedush/hand_robot_ws/install/hand_controlled_robot/share/hand_controlled_robot/launch
+[1.665s] running install_egg_info
+[1.667s] Copying ../../build/hand_controlled_robot/hand_controlled_robot.egg-info to /home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/python3.10/site-packages/hand_controlled_robot-0.0.0-py3.10.egg-info
+[1.667s] running install_scripts
+[1.684s] Installing hand_controlled_robot_node script to /home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/hand_controlled_robot
+[1.684s] writing list of installed files to '/home/thedush/hand_robot_ws/build/hand_controlled_robot/install.log'
+[1.707s] Invoked command in '/home/thedush/hand_robot_ws/src/hand_controlled_robot' returned '0': PYTHONPATH=/home/thedush/hand_robot_ws/build/hand_controlled_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thedush/hand_robot_ws/install/hand_controlled_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hand_controlled_robot build --build-base /home/thedush/hand_robot_ws/build/hand_controlled_robot/build install --record /home/thedush/hand_robot_ws/build/hand_controlled_robot/install.log --single-version-externally-managed install_data

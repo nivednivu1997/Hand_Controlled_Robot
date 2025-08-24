@@ -1,0 +1,3 @@
+[console_scripts]
+hand_controlled_robot_node = hand_controlled_robot.hand_controlled_robot_node:main
+
