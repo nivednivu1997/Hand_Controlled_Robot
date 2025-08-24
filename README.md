@@ -1,7 +1,7 @@
 # Hand Controlled Robot
 
 
-A complete ROS2 Python package for hand gesture-controlled robot movement using MediaPipe and computer vision.
+This project uses **OpenCV**, **MediaPipe Hands**, and **ROS 2** to recognize hand signals from a webcam and control a robot by publishing velocity commands (`/cmd_vel`).  
 
 ### Package Structure
 ```
