@@ -1,6 +1,5 @@
-# Hand Controlled Robot Package - Summary
+# Hand Controlled Robot
 
-## What Was Created
 
 A complete ROS2 Python package for hand gesture-controlled robot movement using MediaPipe and computer vision.
 
@@ -14,7 +13,6 @@ hand_robot_ws/
 │   │       └── hand_control.launch.py       # Launch file
 │   ├── setup.py                             # Package configuration
 │   ├── package.xml                          # Package metadata
-│   ├── requirements.txt                     # Python dependencies
 │   └── README.md                            # Detailed documentation
 ├── install_dependencies.sh                  # Dependency installation script
 ├── run_hand_control.sh                      # Automated startup script
@@ -59,7 +57,6 @@ hand_robot_ws/
 
 ## How to Use
 
-# Quick Start Guide - Hand Controlled Robot
 
 ## Prerequisites
 - ROS2 Humble installed
@@ -69,15 +66,16 @@ hand_robot_ws/
 
 ## Installation (One-time setup)
 
-1. **Installdependencies:**
+1. **Clone Repository:**
    ```bash
-   cd /home/thedush/hand_robot_ws
+   git clone https://github.com/nivednivu1997/Hand_Controlled_Robot.git
+
    
    ```
 
 2. **Build the package:**
    ```bash
-   colcon build --packages-select hand_controlled_robot
+   cd hand_robot_ws && colcon build --packages-select hand_controlled_robot
    ```
 
 3. **Source the workspace:**
@@ -86,14 +84,6 @@ hand_robot_ws/
    ```
 
 ## Running the System
-
-### Option 1: Automated Script (Recommended)
-```bash
-cd /home/thedush/hand_robot_ws
-./run_hand_control.sh
-```
-
-### Option 2: Manual Steps
 
 **Terminal 1 - Start Gazebo:**
 ```bash
@@ -119,19 +109,6 @@ ros2 run hand_controlled_robot hand_controlled_robot_node
 - **3 fingers** = Turn Left
 - **4 fingers** = Turn Right
 - **5 fingers (open palm)** = Stop
-
-## Troubleshooting
-
-- **Camera not working**: Check webcam permissions and connections
-- **Hand not detected**: Ensure good lighting and hand visibility
-- **Package not found**: Make sure to source the workspace
-- **Gazebo issues**: Verify Ignition Gazebo is properly installed
-
-## Stopping the System
-
-- Press **ESC** in the camera window to quit the hand control node
-- Use **Ctrl+C** in terminal windows to stop Gazebo and bridge
-- Or simply close the terminal windows
 
 ### ROS2 Packages
 - `rclpy`: ROS2 Python client library
